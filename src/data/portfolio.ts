@@ -92,21 +92,44 @@ export const projects: Project[] = [
   },
   {
     id: "studio-apartment",
-    title: "Studio Apartment Project",
+    title: "Studio Apartment — MM33 Case Study & Design",
     summary:
-      "Academic studio-apartment project covering concept development, spatial planning and interior visualization.",
+      "Academic studio-apartment project: case study, client brief, zoning, furniture layout plans, sectional elevation, mood board and a physical scale model.",
     description:
-      "A compact studio apartment designed around multi-functional zones. The project covers concept development, spatial planning, and interior visualization, using vertical space and built-in joinery to keep the plan open.",
-    cover: studioCover,
+      "A complete studio-apartment studio project (Batch 35, IVS School of Art & Design, Noida). It begins with a case study of the 54 m² MM33 Apartment by BURO, analysing relative zoning, bubble diagrams and material honesty. The design phase responds to a client brief for a 20-year-old composition painter: a workspace with supply storage, combined kitchen and dining, a large dressing mirror and wardrobe, and a small pooja niche — resolved across a ground floor and mezzanine in a minimalist 'cloud & stone' palette of pure white walls with light grey and beige furniture. Deliverables include zoning studies, ground and mezzanine floor plans, furniture layout plans with schedules, a sectional elevation with heights, a mood board and a hand-built scale model.",
+    cover: studio02.url,
     images: [
-      { src: studioCover, caption: "Studio visualization" },
-      { src: floorPlan, caption: "2D plan — compact zoning" },
-      { src: materials, caption: "Finish palette" },
+      { src: studio01.url, caption: "Case study sheet 1 — zoning & bubble diagram (MM33 Apartment)" },
+      { src: studio02.url, caption: "Case study sheet 2 — living, kitchen, sleeping & washroom analysis" },
+      { src: studio03.url, caption: "Client brief & planning — ground and mezzanine plans, zoning, bubble diagram" },
+      { src: studio04.url, caption: "Mood board — minimalist 'cloud & stone' palette, fixtures and furniture" },
+      { src: studio05.url, caption: "Furniture layout plan — ground floor with furniture schedule" },
+      { src: studio06.url, caption: "Furniture layout plan — mezzanine floor with schedule" },
+      { src: studio07.url, caption: "Sectional elevation with height schedule" },
+      { src: studio08.url, caption: "Scale model — top view of ground floor and mezzanine" },
+      { src: studio09.url, caption: "Scale model — living area, balcony and stair" },
+      { src: studio10.url, caption: "Scale model — overall view" },
     ],
-    materials: ["Birch ply", "Micro-cement", "Matte white laminate", "Warm oak flooring"],
-    software: ["SketchUp", "AutoCAD", "Lumion"],
+    materials: [
+      "Terracotta hatching walls",
+      "Sandstone flooring (main area)",
+      "Honey oak flooring (mezzanine)",
+      "Pure white walls, light grey & beige furniture",
+      "Slate grey upholstery",
+      "Blackened iron / metal finishes",
+      "Moss green biophilia accents",
+    ],
+    software: ["AutoCAD", "SketchUp", "Hand drafting & rendering", "Physical model making"],
+    links: [
+      { label: "Open Full Sheet Set (PDF)", href: studioSheetsPdf.url },
+      {
+        label: "View Project Drive Folder",
+        href: "https://drive.google.com/drive/folders/1PEA4zQGbic6m1HS5BS81ZN087Vp-SRo6",
+      },
+    ],
   },
 ];
+
 
 export type Certificate = {
   id: string;

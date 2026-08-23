@@ -3,6 +3,7 @@ import studioCover from "@/assets/project-studio.jpg";
 import floorPlan from "@/assets/floor-plan.jpg";
 import materials from "@/assets/materials.jpg";
 import certificatePlaceholder from "@/assets/certificate-placeholder.jpg";
+import cvAsset from "@/assets/saksham-gupta-cv.pdf.asset.json";
 
 /**
  * EDIT HERE — all site content lives in this file.
@@ -19,7 +20,7 @@ export const profile = {
   email: "Mr.sakshamgupta@gmail.com",
   phone: "8718819869",
   linkedin: "https://www.linkedin.com/",
-  cvUrl: "/saksham-gupta-cv.pdf",
+  cvUrl: cvAsset.url,
 };
 
 export const skills = [

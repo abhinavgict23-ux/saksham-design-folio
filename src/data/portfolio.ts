@@ -68,7 +68,10 @@ export type Project = {
   images: { src: string; caption: string }[];
   materials: string[];
   software: string[];
+  /** Optional links shown in the project detail view. */
+  links?: { label: string; href: string }[];
 };
+
 
 export const projects: Project[] = [
   {

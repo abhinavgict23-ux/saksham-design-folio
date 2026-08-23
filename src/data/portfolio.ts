@@ -18,9 +18,9 @@ export const profile = {
   tagline: "Interior Design | Space Planning | Visualization",
   intro:
     "Interior Design professional currently pursuing a Professional Diploma in Interior Designing, with practical exposure to residential design, space planning, 2D drafting, visualization, materials, and construction-site coordination.",
-  email: "Mr.sakshamgupta@gmail.com",
+  email: "mr.saksham104@gmail.com",
   phone: "8718819869",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/saksham-gupta-a01b1b289/",
   cvUrl: cvAsset.url,
 };
 
@@ -107,21 +107,14 @@ export const certificates: Certificate[] = [
     id: "design-week",
     name: "Certificate of Excellence in Design Week",
     issuer: "IVS School of Art and Design",
-    image: certificatePlaceholder,
-    file: certificatePlaceholder,
+    image: designWeekCertificate.url,
+    file: designWeekCertificate.url,
   },
   {
-    id: "google-analytics",
-    name: "Google Analytics",
-    issuer: "Google",
-    image: certificatePlaceholder,
-    file: certificatePlaceholder,
-  },
-  {
-    id: "basic-it",
-    name: "Basic Information Technology",
-    issuer: "Certification Course",
-    image: certificatePlaceholder,
-    file: certificatePlaceholder,
+    id: "wade-asia",
+    name: "Wade Asia certificate",
+    issuer: "WADE ASIA Architecture & Design Event",
+    image: wadeAsiaCertificate.url,
+    file: wadeAsiaCertificate.url,
   },
 ];

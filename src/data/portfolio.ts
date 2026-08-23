@@ -5,6 +5,18 @@ import materials from "@/assets/materials.jpg";
 import designWeekCertificate from "@/assets/design-week-certificate.png.asset.json";
 import wadeAsiaCertificate from "@/assets/wade-asia-certificate.png.asset.json";
 import cvAsset from "@/assets/saksham-gupta-cv.pdf.asset.json";
+import studioSheetsPdf from "@/assets/studio-apartment-sheets.pdf.asset.json";
+import studio01 from "@/assets/studio-01.jpg.asset.json";
+import studio02 from "@/assets/studio-02.jpg.asset.json";
+import studio03 from "@/assets/studio-03.jpg.asset.json";
+import studio04 from "@/assets/studio-04.jpg.asset.json";
+import studio05 from "@/assets/studio-05.jpg.asset.json";
+import studio06 from "@/assets/studio-06.jpg.asset.json";
+import studio07 from "@/assets/studio-07.jpg.asset.json";
+import studio08 from "@/assets/studio-08.jpg.asset.json";
+import studio09 from "@/assets/studio-09.jpg.asset.json";
+import studio10 from "@/assets/studio-10.jpg.asset.json";
+
 
 /**
  * EDIT HERE — all site content lives in this file.

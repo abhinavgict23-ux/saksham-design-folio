@@ -1,5 +1,4 @@
 import residentialCover from "@/assets/project-residential.jpg";
-import studioCover from "@/assets/project-studio.jpg";
 import floorPlan from "@/assets/floor-plan.jpg";
 import materials from "@/assets/materials.jpg";
 import designWeekCertificate from "@/assets/design-week-certificate.png.asset.json";

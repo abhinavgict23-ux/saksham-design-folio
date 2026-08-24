@@ -246,6 +246,22 @@ function Index() {
             <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground">
               {activeProject.description}
             </p>
+            {activeProject.links && (
+              <div className="mt-6 flex flex-wrap gap-3">
+                {activeProject.links.map((l) => (
+                  <a
+                    key={l.href}
+                    href={l.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-outline"
+                  >
+                    {l.label}
+                  </a>
+                ))}
+              </div>
+            )}
+
             <div className="mt-8 space-y-8">
               {activeProject.images.map((img) => (
                 <figure key={img.caption}>

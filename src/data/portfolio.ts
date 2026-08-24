@@ -1,6 +1,3 @@
-import residentialCover from "@/assets/project-residential.jpg";
-import floorPlan from "@/assets/floor-plan.jpg";
-import materials from "@/assets/materials.jpg";
 import designWeekCertificate from "@/assets/design-week-certificate.png.asset.json";
 import wadeAsiaCertificate from "@/assets/wade-asia-certificate.png.asset.json";
 import cvAsset from "@/assets/saksham-gupta-cv.pdf.asset.json";
@@ -15,6 +12,32 @@ import studio07 from "@/assets/studio-07.jpg.asset.json";
 import studio08 from "@/assets/studio-08.jpg.asset.json";
 import studio09 from "@/assets/studio-09.jpg.asset.json";
 import studio10 from "@/assets/studio-10.jpg.asset.json";
+import res01 from "@/assets/res-01.jpg.asset.json";
+import res02 from "@/assets/res-02.jpg.asset.json";
+import res03 from "@/assets/res-03.jpg.asset.json";
+import res04 from "@/assets/res-04.jpg.asset.json";
+import res05 from "@/assets/res-05.jpg.asset.json";
+import res06 from "@/assets/res-06.jpg.asset.json";
+import res07 from "@/assets/res-07.jpg.asset.json";
+import res08 from "@/assets/res-08.jpg.asset.json";
+import res09 from "@/assets/res-09.jpg.asset.json";
+import res10 from "@/assets/res-10.jpg.asset.json";
+import res11 from "@/assets/res-11.jpg.asset.json";
+import res12 from "@/assets/res-12.jpg.asset.json";
+import res13 from "@/assets/res-13.jpg.asset.json";
+import res14 from "@/assets/res-14.jpg.asset.json";
+import res15 from "@/assets/res-15.jpg.asset.json";
+import res16 from "@/assets/res-16.jpg.asset.json";
+import res17 from "@/assets/res-17.jpg.asset.json";
+import res18 from "@/assets/res-18.jpg.asset.json";
+import res19 from "@/assets/res-19.jpg.asset.json";
+import res20 from "@/assets/res-20.jpg.asset.json";
+import res21 from "@/assets/res-21.jpg.asset.json";
+import res22 from "@/assets/res-22.jpg.asset.json";
+import res23 from "@/assets/res-23.jpg.asset.json";
+import res24 from "@/assets/res-24.jpg.asset.json";
+import homeFurnitureLayout from "@/assets/home-furniture-layout.jpg.asset.json";
+import homeFurniturePdf from "@/assets/my-home-furniture-layout.pdf.asset.json";
 
 
 /**
@@ -74,20 +97,55 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "residential",
-    title: "Residential Interior Projects",
+    id: "residence",
+    title: "Residence — Complete Working Drawing Set",
     summary:
-      "Residential space-planning concepts focused on functional layouts, furniture placement, aesthetics, materials and finishes.",
+      "A full three-level residence documented end to end: zoning and bubble diagrams, furniture layout plans, flooring, false ceiling, electrical, sections and coloured presentation plans.",
     description:
-      "A set of residential interior studies exploring circulation, zoning and furniture layouts for family living. Each layout balances daylight, storage and comfort while keeping a warm, neutral material palette throughout the home.",
-    cover: residentialCover,
+      "A complete residential design and documentation project (Batch 35, IVS School of Art & Design, Noida) covering a stilt floor, upper ground floor and second floor. The set starts with bubble and zoning diagrams that establish public, semi-private and private areas around the main entry, parking and stair core. It develops into furniture layout plans with door, window and furniture schedules, flooring plans with tile legends, false ceiling plans with drop levels, ceiling and wall electrical plans with light, fan and switch-board specifications, and sections showing wall finishes and heights — closing with coloured presentation plans of all three levels.",
+    cover: res24.url,
     images: [
-      { src: residentialCover, caption: "Living area — design visual" },
-      { src: floorPlan, caption: "2D floor plan — furniture layout" },
-      { src: materials, caption: "Materials and finishes board" },
+      { src: res01.url, caption: "Bubble & zoning diagram — stilt floor" },
+      { src: res02.url, caption: "Bubble & zoning diagram — upper ground floor" },
+      { src: res03.url, caption: "Bubble & zoning diagram — second floor" },
+      { src: res04.url, caption: "Mood board — contemporary design style" },
+      { src: res05.url, caption: "Furniture layout plan — stilt floor with door & window schedule" },
+      { src: res06.url, caption: "Furniture layout plan — upper ground floor with furniture schedule" },
+      { src: res07.url, caption: "Furniture layout plan — second floor with furniture schedule" },
+      { src: res08.url, caption: "Flooring plan — stilt floor with flooring legend" },
+      { src: res09.url, caption: "Flooring plan — upper ground floor" },
+      { src: res10.url, caption: "Flooring plan — second floor" },
+      { src: res11.url, caption: "False ceiling plan — stilt floor" },
+      { src: res12.url, caption: "False ceiling plan — upper ground floor" },
+      { src: res13.url, caption: "False ceiling plan — second floor" },
+      { src: res14.url, caption: "Ceiling electrical plan — stilt floor" },
+      { src: res15.url, caption: "Ceiling electrical plan — upper ground floor" },
+      { src: res16.url, caption: "Ceiling electrical plan — second floor" },
+      { src: res17.url, caption: "Wall electrical plan — stilt floor" },
+      { src: res18.url, caption: "Wall electrical plan — upper ground floor" },
+      { src: res19.url, caption: "Wall electrical plan — second floor" },
+      { src: res20.url, caption: "Section A-A' — finishes and heights" },
+      { src: res21.url, caption: "Section C-C' — finishes and heights" },
+      { src: res22.url, caption: "Presentation plan — stilt floor" },
+      { src: res23.url, caption: "Presentation plan — upper ground floor" },
+      { src: res24.url, caption: "Presentation plan — second floor" },
     ],
-    materials: ["Oak veneer", "Lime plaster", "Linen upholstery", "Brushed brass", "Beige stone"],
+    materials: [
+      "Terrazzo tiles (stilt parking & servants' room)",
+      "Anti-skid ceramic tiles (wet areas)",
+      "Vitrified tiles 2'x4'",
+      "Quartz stone counters",
+      "Wooden flooring (bedrooms)",
+      "Apex & royal sheen emulsion paint",
+      "Matt finish emulsion paint",
+    ],
     software: ["AutoCAD", "SketchUp", "Photoshop"],
+    links: [
+      {
+        label: "View Project Drive Folder",
+        href: "https://drive.google.com/drive/folders/1rGT1T1C-CuGv-8jc3NYcXhfEHuhe2up8",
+      },
+    ],
   },
   {
     id: "studio-apartment",
@@ -126,6 +184,29 @@ export const projects: Project[] = [
         href: "https://drive.google.com/drive/folders/1PEA4zQGbic6m1HS5BS81ZN087Vp-SRo6",
       },
     ],
+  },
+  {
+    id: "home-furniture-layout",
+    title: "My Home — Furniture Layout Plan",
+    summary:
+      "A measured furniture layout plan of my own home: a 39'-0\" x 45'-0\" plot planned with bedrooms, living, dining, kitchen and covered parking.",
+    description:
+      "A measured drawing and furniture layout plan of my own home, drafted in AutoCAD. The plan sets out a 39'-0\" x 45'-0\" footprint on an irregular 47'-3\" deep plot, with three bedrooms and attached bathrooms, a combined living and dining area, an L-shaped kitchen with sink and hob, a powder room, a staircase core and covered parking for a car and two-wheelers. It records door swings, window openings, level changes and key clearances alongside the furniture placement.",
+    cover: homeFurnitureLayout.url,
+    images: [
+      {
+        src: homeFurnitureLayout.url,
+        caption: "Furniture layout plan — bedrooms, living, dining, kitchen and parking",
+      },
+    ],
+    materials: [
+      "Vitrified tile flooring",
+      "Wooden wardrobes & dressing units",
+      "Granite kitchen counter",
+      "Ceramic tiles (bathrooms)",
+    ],
+    software: ["AutoCAD"],
+    links: [{ label: "Open Layout Sheet (PDF)", href: homeFurniturePdf.url }],
   },
 ];
 

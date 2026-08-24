@@ -37,6 +37,8 @@ import res22 from "@/assets/res-22.jpg.asset.json";
 import res23 from "@/assets/res-23.jpg.asset.json";
 import res24 from "@/assets/res-24.jpg.asset.json";
 import homeFurnitureLayout from "@/assets/home-furniture-layout.jpg.asset.json";
+import res24Cover from "@/assets/res-24-cover.jpg.asset.json";
+import homeFurnitureCover from "@/assets/home-furniture-cover.jpg.asset.json";
 import homeFurniturePdf from "@/assets/my-home-furniture-layout.pdf.asset.json";
 
 
@@ -103,7 +105,7 @@ export const projects: Project[] = [
       "A full three-level residence documented end to end: zoning and bubble diagrams, furniture layout plans, flooring, false ceiling, electrical, sections and coloured presentation plans.",
     description:
       "A complete residential design and documentation project (Batch 35, IVS School of Art & Design, Noida) covering a stilt floor, upper ground floor and second floor. The set starts with bubble and zoning diagrams that establish public, semi-private and private areas around the main entry, parking and stair core. It develops into furniture layout plans with door, window and furniture schedules, flooring plans with tile legends, false ceiling plans with drop levels, ceiling and wall electrical plans with light, fan and switch-board specifications, and sections showing wall finishes and heights — closing with coloured presentation plans of all three levels.",
-    cover: res24.url,
+    cover: res24Cover.url,
     images: [
       { src: res01.url, caption: "Bubble & zoning diagram — stilt floor" },
       { src: res02.url, caption: "Bubble & zoning diagram — upper ground floor" },
@@ -192,7 +194,7 @@ export const projects: Project[] = [
       "A measured furniture layout plan of my own home: a 39'-0\" x 45'-0\" plot planned with bedrooms, living, dining, kitchen and covered parking.",
     description:
       "A measured drawing and furniture layout plan of my own home, drafted in AutoCAD. The plan sets out a 39'-0\" x 45'-0\" footprint on an irregular 47'-3\" deep plot, with three bedrooms and attached bathrooms, a combined living and dining area, an L-shaped kitchen with sink and hob, a powder room, a staircase core and covered parking for a car and two-wheelers. It records door swings, window openings, level changes and key clearances alongside the furniture placement.",
-    cover: homeFurnitureLayout.url,
+    cover: homeFurnitureCover.url,
     images: [
       {
         src: homeFurnitureLayout.url,

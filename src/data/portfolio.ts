@@ -15,6 +15,32 @@ import studio07 from "@/assets/studio-07.jpg.asset.json";
 import studio08 from "@/assets/studio-08.jpg.asset.json";
 import studio09 from "@/assets/studio-09.jpg.asset.json";
 import studio10 from "@/assets/studio-10.jpg.asset.json";
+import res01 from "@/assets/res-01.jpg.asset.json";
+import res02 from "@/assets/res-02.jpg.asset.json";
+import res03 from "@/assets/res-03.jpg.asset.json";
+import res04 from "@/assets/res-04.jpg.asset.json";
+import res05 from "@/assets/res-05.jpg.asset.json";
+import res06 from "@/assets/res-06.jpg.asset.json";
+import res07 from "@/assets/res-07.jpg.asset.json";
+import res08 from "@/assets/res-08.jpg.asset.json";
+import res09 from "@/assets/res-09.jpg.asset.json";
+import res10 from "@/assets/res-10.jpg.asset.json";
+import res11 from "@/assets/res-11.jpg.asset.json";
+import res12 from "@/assets/res-12.jpg.asset.json";
+import res13 from "@/assets/res-13.jpg.asset.json";
+import res14 from "@/assets/res-14.jpg.asset.json";
+import res15 from "@/assets/res-15.jpg.asset.json";
+import res16 from "@/assets/res-16.jpg.asset.json";
+import res17 from "@/assets/res-17.jpg.asset.json";
+import res18 from "@/assets/res-18.jpg.asset.json";
+import res19 from "@/assets/res-19.jpg.asset.json";
+import res20 from "@/assets/res-20.jpg.asset.json";
+import res21 from "@/assets/res-21.jpg.asset.json";
+import res22 from "@/assets/res-22.jpg.asset.json";
+import res23 from "@/assets/res-23.jpg.asset.json";
+import res24 from "@/assets/res-24.jpg.asset.json";
+import homeFurnitureLayout from "@/assets/home-furniture-layout.jpg.asset.json";
+import homeFurniturePdf from "@/assets/my-home-furniture-layout.pdf.asset.json";
 
 
 /**

@@ -1,6 +1,3 @@
-import residentialCover from "@/assets/project-residential.jpg";
-import floorPlan from "@/assets/floor-plan.jpg";
-import materials from "@/assets/materials.jpg";
 import designWeekCertificate from "@/assets/design-week-certificate.png.asset.json";
 import wadeAsiaCertificate from "@/assets/wade-asia-certificate.png.asset.json";
 import cvAsset from "@/assets/saksham-gupta-cv.pdf.asset.json";

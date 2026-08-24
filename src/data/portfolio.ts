@@ -188,6 +188,29 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    id: "home-furniture-layout",
+    title: "My Home — Furniture Layout Plan",
+    summary:
+      "A measured furniture layout plan of my own home: a 39'-0\" x 45'-0\" plot planned with bedrooms, living, dining, kitchen and covered parking.",
+    description:
+      "A measured drawing and furniture layout plan of my own home, drafted in AutoCAD. The plan sets out a 39'-0\" x 45'-0\" footprint on an irregular 47'-3\" deep plot, with three bedrooms and attached bathrooms, a combined living and dining area, an L-shaped kitchen with sink and hob, a powder room, a staircase core and covered parking for a car and two-wheelers. It records door swings, window openings, level changes and key clearances alongside the furniture placement.",
+    cover: homeFurnitureLayout.url,
+    images: [
+      {
+        src: homeFurnitureLayout.url,
+        caption: "Furniture layout plan — bedrooms, living, dining, kitchen and parking",
+      },
+    ],
+    materials: [
+      "Vitrified tile flooring",
+      "Wooden wardrobes & dressing units",
+      "Granite kitchen counter",
+      "Ceramic tiles (bathrooms)",
+    ],
+    software: ["AutoCAD"],
+    links: [{ label: "Open Layout Sheet (PDF)", href: homeFurniturePdf.url }],
+  },
 ];
 
 

@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
 import heroImage from "@/assets/hero-interior.jpg";
+import portrait from "@/assets/saksham-portrait.jpg.asset.json";
 import { Modal } from "@/components/Modal";
 import { ProjectCard } from "@/components/ProjectCard";
 import {
@@ -74,11 +75,21 @@ function Index() {
         <section className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-2 lg:gap-16 lg:py-24">
           <div>
             <p className="eyebrow">{profile.tagline}</p>
-            <h1 className="mt-5 text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
-              SAKSHAM
-              <br />
-              GUPTA
-            </h1>
+            <div className="mt-5 flex items-center gap-6">
+              <img
+                src={portrait.url}
+                alt="Portrait of Saksham Gupta"
+                width={480}
+                height={480}
+                className="h-24 w-24 shrink-0 rounded-full border border-border object-cover object-[50%_18%] sm:h-32 sm:w-32"
+              />
+              <h1 className="text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
+                SAKSHAM
+                <br />
+                GUPTA
+              </h1>
+            </div>
+
             <p className="mt-6 max-w-lg text-sm leading-relaxed text-muted-foreground">
               {profile.intro}
             </p>
